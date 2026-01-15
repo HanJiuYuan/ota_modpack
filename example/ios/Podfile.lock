@@ -1,0 +1,59 @@
+PODS:
+  - ble_integrated (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_blue_plus_darwin (0.0.2):
+    - Flutter
+    - FlutterMacOS
+  - integration_test (0.0.1):
+    - Flutter
+  - nordic_dfu (2.0.0):
+    - Flutter
+    - FlutterMacOS
+    - NordicDFU (~> 4.16.0)
+  - NordicDFU (4.16.0):
+    - ZIPFoundation (= 0.9.19)
+  - ota_upgrade (0.0.1):
+    - Flutter
+  - ZIPFoundation (0.9.19)
+
+DEPENDENCIES:
+  - ble_integrated (from `.symlinks/plugins/ble_integrated/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_blue_plus_darwin (from `.symlinks/plugins/flutter_blue_plus_darwin/darwin`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+  - nordic_dfu (from `.symlinks/plugins/nordic_dfu/darwin`)
+  - ota_upgrade (from `.symlinks/plugins/ota_upgrade/ios`)
+
+SPEC REPOS:
+  trunk:
+    - NordicDFU
+    - ZIPFoundation
+
+EXTERNAL SOURCES:
+  ble_integrated:
+    :path: ".symlinks/plugins/ble_integrated/ios"
+  Flutter:
+    :path: Flutter
+  flutter_blue_plus_darwin:
+    :path: ".symlinks/plugins/flutter_blue_plus_darwin/darwin"
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+  nordic_dfu:
+    :path: ".symlinks/plugins/nordic_dfu/darwin"
+  ota_upgrade:
+    :path: ".symlinks/plugins/ota_upgrade/ios"
+
+SPEC CHECKSUMS:
+  ble_integrated: 80e7873a6ffdc2c4401a42705c787c5c50670782
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_blue_plus_darwin: 3ea4ec9133b377febcc8a70b28cd2d2dc9242bd9
+  integration_test: 252f60fa39af5e17c3aa9899d35d908a0721b573
+  nordic_dfu: 301ec0e7d03dc9959c5326cf731fc5e2f8688482
+  NordicDFU: 116a4ec458945889f8e0e71759e03b23c39c3482
+  ota_upgrade: 2dde8498259c5fa9fb40e19c7a79209de2df3b07
+  ZIPFoundation: b8c29ea7ae353b309bc810586181fd073cb3312c
+
+PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+
+COCOAPODS: 1.16.2
